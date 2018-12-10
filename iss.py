@@ -97,7 +97,7 @@ def iss_intercepts_indy(iss):
     indy.setpos(indy_long, indy_lat)
     indy.dot(10, 'yellow')
     indy.write(formatted_pass_time, align='center')
-    # indy.showturtle()\
+    # indy.showturtle() commented out to not show arrow.
 
 
 def main():
